@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    text-shadow: 0px 0px 1px #000;
+}
+
+.container {
+    position: absolute;
+    margin: 4px;
+    padding: 20px 50px;
+}
+
+.container .banner {
+    position:relative;
+}
+
+.container .imagen{
+    position: absolute;
+    padding-left: 10rem;
+    top: 310px;
+}
+
+.row{
+    padding: 20px 25px;
+}
+
+.caja{
+    padding-left: 21rem;
+    font-size: 15px;
+}
+
+.caja h1{
+    font-size: 37px;
+}
+
+.amarillo {
+    color: rgb(233, 172, 5);
+}
+
+.row .parrafo{
+    width: 620px;
+    margin-top: 31px;
+    padding-left:7rem;
+    font-size: 18px;
+}
+
+.row .botones-usuario {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    width: 484px;
+    margin-top: 1rem;
+    text-align: center;
+    padding-left: 8rem;
+    justify-content: space-between;
+}
+
+.row .botones-usuario .botones-links{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+
+.contenedor{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    width: 390px;
+    padding-left: 7rem 20rem;
+}
+
+.parrafo-2{
+    opacity: .7;
+    float: right;
+    position: absolute;
+    padding-left: 17rem;
+}
+
+.contenedor .parrafo-3{
+    opacity: .7;
+    position: absolute;
+    padding-left: 7.7rem;
+    float: left;
+}
+
+.contenedor .parrafo-1{
+    opacity: .7;
+    padding-left: 27rem;
+    position: absolute;
+}
+
+.gris{
+    opacity: .7;
+}
+
+.row .botones-links svg{
+    width: 70px;
+}
+
+.card{
+    position: absolute;
+    padding: 10px 20px;
+    width: 500px;
+    height: 80px;
+    left: 53%;
+    right: 50%;
+    top: 320px;
+    background: rgb(233, 172, 5);
+}
+
+.lanzamiento{
+    position: absolute;
+    padding-left: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fecha{
+    position: absolute;
+    padding-left: 70px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.card i {
+    width: 70px;
+    color: #fff;
+    background: transparent !important;
+    font-size: 50px;
+}
+
+.registrarte{
+    position: absolute;
+    width: 500px;
+    left: 59%;
+    right: 50%;
+    top: 430px;
+}
+
+.form{
+    position: absolute;
+    width: 500px;
+    left: 53%;
+    right: 50%;
+    top: 470px;
+}
+
+.form form {
+    background: #fff;
+    color: #000;
+}
+
+.form  form label {
+    display: block;
+    margin-top: 20px;
+}
+
+.form form .block {
+    display: inline-block;
+    width: 500px;
+}
+
+
+.form form input{
+    width: 100%;
+    padding: .2em;
+    margin-top: 10px;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #000;
+    border-bottom: 1px solid #df9a04;
+}
+
+.form form button {
+    background: #ffffff;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    width: 50%;
+    padding: .5em;
+    margin-top: 10px;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #000;
+    border: 1px solid #df9a04;
+}
+
+.form form .mas{
+    position: absolute;
+    background: #df9a04;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    width: 50%;
+    padding: .5em;
+    margin-top: 11px;
+    border: none;
+    outline: 0;
+    color: rgb(255, 255, 255);
+}
+
+.form form input[type="checkbox"] {
+    position: absolute;
+    width: 20px;
+}
+
+.block-1{
+    position: absolute;
+    top: 348px;
+    padding-left: 37px;
+}
+
+.block-1 p{
+    padding-left: 30px;
+}
+
+#errores{
+    color: red;
+}
+
+#aciertos {
+    color: greenyellow;
+}
+
